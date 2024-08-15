@@ -1,0 +1,117 @@
+/* MenuBar.css */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Ensure items are centered vertically */
+    background-color: white;
+    padding: 1rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+
+
+.bold-button {
+    font-weight: bold;
+}
+
+.nav-logo {
+    flex-grow: 1;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.nav-logo a {
+    text-decoration: none;
+    letter-spacing: 0.25rem; 
+    color: #3f3054;
+    font-size: 2rem;
+    font-family: 'Poppins';
+}
+
+.nav-links {
+    display: flex;
+    gap: 3rem;
+    font-weight: bold;
+    align-items: center; /* Ensure items are centered vertically */
+}
+
+.nav-links a, .nav-links button {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-links a:hover, .nav-links button:hover {
+    color: #5a5858;
+}
+
+.nav-links button {
+    padding: 0;
+}
+
+.left-links {
+    margin-right: auto;
+    margin-left: 3.5rem;
+}
+
+.right-links {
+    margin-left: auto;
+    margin-right: 6rem;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.tell-a-friend {
+    align-self: flex-start; /* Move the button higher */
+    margin-top: 2.5px; /* Adjust the value as needed to move it higher */
+}
+
+.bold-button.tell-a-friend:hover {
+    background: transparent;
+    border: none;
+   
+}

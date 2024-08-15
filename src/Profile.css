@@ -1,0 +1,142 @@
+
+
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    padding-top: 100px; 
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+label {
+  
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.button-spacing-right {
+    margin-right: 40px; 
+}
+
+.action-bar {
+    position: fixed;
+    bottom: 20px; /* Adjust the value to move it higher from the bottom */
+    right: 20px;  /* Adjust the value to move it left from the right */
+    background: #f9f9f9;
+    padding: 10px 20px;
+    z-index: 1001; 
+}
+
+
+
+
+
+
+.left-section, .right-section {
+    flex: 1;
+    padding: 150px 20px 20px 20px; 
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 60px); 
+}
+
+
+
+
+input[type="text"],
+input[type="username"],
+input[type="password"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #d7d0e3;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 150px; 
+}
+
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+
+    color: white;
+    background-color: #9177ae;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ada3d7;
+}
+
+/* Modal styling for interests */
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    max-width: 100%;
+    padding: 20px;
+    background-color: rgb(214, 228, 241);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.modal h2 {
+    color: #333;
+}
+
+.modal ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.modal ul li {
+    padding: 8px;
+    margin-top: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+.modal button {
+    width: auto;
+    padding: 8px 16px;
+    margin-top: 20px;
+    background-color: #4e78a8;
+   
+}
+
+.modal .close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10;  
+    margin: 0;  
+    background: transparent;
+    font-size: 1.5em;
+    color: #000;
+ 
+}
+.modal .close-button:hover {
+    background-color: transparent;
+}
+
+.modal button:hover {
+    background-color: #2362c8;
+}
+

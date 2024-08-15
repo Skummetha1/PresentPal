@@ -1,0 +1,43 @@
+.exchange-process {
+    padding: 20px;
+    text-align: center;
+}
+
+.exchange-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.exchange-steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.step {
+    max-width: 260px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.step .icon {
+    margin-bottom: 10px;
+}
+
+.step .icon img {
+    max-width: 50px;
+}
+
+.step-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #360b87;
+    margin-bottom: 10px;
+}
+
+.step-description {
+    font-size: 16px;
+    color: #000000;
+}

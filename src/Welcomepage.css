@@ -1,0 +1,9 @@
+.welcome-container {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 455px; /* Adjust this value based on your menubar height */
+}
+
+.carousel-wrapper {
+    margin-bottom: 20px;
+}
